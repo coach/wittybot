@@ -1,0 +1,11 @@
+{
+  "name": "wittybot",
+  "version": "0.0.1",
+  "description": "An ordinary node.js library for building extraordinary bots powered by wit.ai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
