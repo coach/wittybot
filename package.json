@@ -1,11 +1,14 @@
 {
   "name": "wittybot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An ordinary node.js library for building extraordinary bots powered by wit.ai",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-wit": "^3.3.2"
+  }
 }
