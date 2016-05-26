@@ -1,6 +1,6 @@
 {
   "name": "wittybot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An ordinary node.js library for building extraordinary bots powered by wit.ai",
   "main": "index.js",
   "scripts": {
