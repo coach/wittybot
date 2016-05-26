@@ -19,7 +19,11 @@ class Wittybot {
         cb();
       },
       merge(session, context, entities, message, cb) {
-        cb(context);
+        if (attrs.actions.merge) {
+          attrs.actions.merge(context, entities, cb);
+        } else {
+          cb(context);
+        }
       },
       error(session, context, error) {
       }
